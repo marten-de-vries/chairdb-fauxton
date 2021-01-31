@@ -4,18 +4,11 @@
   { "name": "components" },
   { "name": "databases" },
   { "name": "documents" },
-  { "name": "setup" },
-  { "name": "activetasks" },
-  { "name": "cluster" },
-  { "name": "config" },
   { "name": "replication" },
-  { "name": "search" },
   { "name": "cors" },
-  { "name": "permissions" },
   { "name": "auth" },
   { "name": "verifyinstall" },
-  { "name": "documentation" },
-  { "name": "news" }
+  { "name": "documentation" }
   ],
     "template": {
       "development": {
@@ -39,8 +32,8 @@
         "variables": {
           "title": "Project Fauxton",
           "generationLabel": "Fauxton Release",
-          "largeLogoPath": "../../../../../assets/img/CouchDB-negative-logo.png",
-          "smallLogoPath": "../../../../../assets/img/couchdb-logo.png"
+          "largeLogoPath": "../../../../../chairdb_assets/negative.png",
+          "smallLogoPath": "../../../../../chairdb_assets/logo.png"
         },
         "app": {
           "root": "/",
